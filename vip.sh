@@ -72,7 +72,7 @@ echo  $green "   [15] Spam IG";
 echo  $green "   [16] Spam WA";
 echo  $green "   [17] Spam Sms";
 echo  $green "   [18] Hack Wifi V1 (root)";
-echo  $green ".  [19] Hack Wifi V2 (root)";
+echo  $green "   [19] Hack Wifi V2 (root)";
 echo  $green "   [20] Tembak Kuota XL";
 echo  $green "   [ 0] Exit";
 echo ""
@@ -261,6 +261,8 @@ git clone https://github.com/derv82/wifite
 cd wifite
 chmod +x wifite.py
 ./wifite.py
+
+;;
 
 5) apt update && apt upgrade
 apt install python2
